@@ -93,3 +93,4 @@ if game_won == True:
 else:
     print("You lost, maybe next time.")
 
+input()

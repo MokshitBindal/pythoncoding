@@ -1,4 +1,5 @@
 import random
+
 valid = True
 choice = int(input("Choose any one: 1 for rock, 2 for paper, 3 for scissor "))
 rock = """
@@ -27,21 +28,20 @@ scissors = """
       (____)
 ---.__(___)
 """
-if choice <1 or choice >3:
+if choice < 1 or choice > 3:
     valid = False
     print("invalid input")
 elif choice == 1:
-    print("You chose:\n",rock)
+    print("You chose:\n", rock)
 elif choice == 2:
-    print("You chose:\n",paper)
+    print("You chose:\n", paper)
 elif choice == 3:
-    print("You chose:\n",scissors)
-
+    print("You chose:\n", scissors)
 
 if valid == True:
-    game = [rock,paper,scissors]
+    game = [rock, paper, scissors]
     comp_choice = random.choice(game)
-    print("Computer chose:\n",comp_choice)
+    print("Computer chose:\n", comp_choice)
 
     if choice == 1 and comp_choice == scissors:
         print("you won")
@@ -58,5 +58,3 @@ if valid == True:
             print("draw")
         else:
             print("you lost")
-
-

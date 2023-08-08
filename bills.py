@@ -1,0 +1,13 @@
+salary = int(input("enter your salary in dollar"))
+print("your salary in INR")
+a = salary * 82
+print(salary * 82)
+print("spend in bills: ")
+print(a * 30 / 100)
+print("spend on shoppings: ")
+print(a * 20 / 100)
+print("spend on investments:")
+print(a * 30 / 100)
+print("savings:")
+print(a * 20 / 100)
+input()

@@ -21,7 +21,6 @@ if extra_cheese in ["y", "Y"]:
 print(f"Your total bill is {bill}rs")
 '''
 
-
 if size in ["s", "S"]:
     bill = 150
 elif size in ["m", "M"]:
@@ -39,6 +38,3 @@ if extra_cheese in ["y", "Y"]:
     bill += 10
 
 print(f"Your total bill is {bill}rs")
-
-
-
