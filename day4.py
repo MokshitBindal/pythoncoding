@@ -29,7 +29,6 @@ else:
 
 '''
 
-
 '''
 fruits = ["apple", "cherry", "Banana"]
 fruits[1] = "orange"
@@ -39,10 +38,15 @@ print(fruits[0])
 print(fruits[-1])
 
 fruits.append("kiwi")
+print(fruits)
 fruits.extend("kiwi")
+print(fruits)
 fruits.insert(2, "papaya")
+print(fruits)
 fruits.remove("kiwi")
+print(fruits)
 fruits.pop(6)
+print(fruits)
 print(fruits.index("k"))
 a = fruits.copy()
 print(a)
@@ -65,8 +69,8 @@ fruits.clear()
 # append adds item wheres extend take a iterable and adds it
 
 print(fruits)
-'''
 
+'''
 '''
 import random
 names_string = input("Give me everybody\'s name, separated by comma. ")
@@ -94,8 +98,7 @@ dirty_dozen = [fruit,vegetables] # nested list
 print(dirty_dozen)
 '''
 
-
-"""
+'''
 row1 = ["⬜️","⬜️","⬜️"]
 row2 = ["⬜️","⬜️","⬜️"]
 row3 = ["⬜️","⬜️","⬜️"]
@@ -106,5 +109,4 @@ map[int(position[1])-1][int(position[0])-1] = "X"
 print(map[0])
 print(map[1])
 print(map[2])
-"""
-
+'''

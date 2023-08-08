@@ -26,6 +26,7 @@ if height >= 120:
 else:
     print("Sorry but you can't ride the rollercoaster.")
 '''
+
 '''
 weight=int(input("Enter your weight.(in kg) "))
 height=float(input("Enter your height.(in m) "))
@@ -42,8 +43,6 @@ else:
     print("your bmi is {},you are clinically obese".format(bmi))
 '''
 
-
-
 '''year = int(input("Write any year. "))
 if year % 4 == 0:
     if year % 100 == 0:
@@ -57,7 +56,6 @@ else:
     print("not leap year")'''
 
 
-
 def leap_year_finder(year):
     if year % 4 == 0:
         if year % 100 == 0:
@@ -69,7 +67,6 @@ def leap_year_finder(year):
             return True
     else:
         return False
-
 
 
 '''
@@ -86,19 +83,17 @@ print(age)
 '''
 
 '''
-if year % 2 == 0:
+if year % 4 == 0:
     if year % 100 = 0:
         if year % 400 == 0:
             print(f"The year {year} is a leap year.")
         else:
             print("the year {} is not a leap year.".format(year))
     else:
-        print("the year {} is not a leap year.".format(year))
+        print("the year {} is a leap year.".format(year))
 else:
     print("the year {} is not a leap year.".format(year))
 '''
-
-
 
 height = int(input("What is your height in cm? "))
 bill = 0
@@ -107,15 +102,15 @@ if height >= 120:
     age = int(input("What is your age? "))
     if age == 18:
         bill = 100
-        #print("Please pay {}rs.".format(bill))
-    elif age > 18 and age <45:
+        # print("Please pay {}rs.".format(bill))
+    elif age > 18 and age < 45:
         bill = 150
-        #print("Please pay {}rs.".format(bill))
-    elif age >=45 and age<=55:
+        # print("Please pay {}rs.".format(bill))
+    elif age >= 45 and age <= 55:
         print("Have a free ticket for ride from us")
     else:
         bill = 50
-        #print("Please pay {}rs.".format(bill))
+        # print("Please pay {}rs.".format(bill))
 
     photo = input("Do you want a photo? Y or N: ")
     if photo == "y" or "Y":
@@ -124,8 +119,6 @@ if height >= 120:
 
 else:
     print("Sorry but you can't ride the rollercoaster.")
-
-
 
 '''    
 print("Welcome to Python Pizza Deliveries!")
@@ -152,7 +145,6 @@ if extra_cheese in ["y", "Y"]:
 
 print(f"Your total bill is {bill}rs")
 '''
-
 
 # a = 12
 # print(a < 15)
